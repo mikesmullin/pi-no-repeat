@@ -1,0 +1,13 @@
+{
+  "name": "pi-no-repeat",
+  "version": "0.1.0",
+  "description": "Break small models out of repeat loops by nudging when the same assistant thought repeats twice",
+  "type": "module",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./index.ts"]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  }
+}
